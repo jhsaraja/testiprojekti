@@ -2,7 +2,7 @@ import person
 import unittest
 
 
-class TestShipfunk(unittest.TestCase):
+class TestPerson(unittest.TestCase):
     """ Test for Person package. """
 
     @classmethod
