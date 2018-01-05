@@ -8,6 +8,7 @@ import unittest
 
 #from testiprojekti import testiprojekti
 from testiprojekti.testiprojekti import Person
+from testiprojekti.testiprojekti import Employee
 
 
 
