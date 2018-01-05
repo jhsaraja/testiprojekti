@@ -6,7 +6,8 @@
 
 import unittest
 
-from testiprojekti import testiprojekti
+#from testiprojekti import testiprojekti
+from testiprojekti.testiprojekti import Person
 
 
 
@@ -16,8 +17,8 @@ class TestPerson(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """ Set up our Person client for tests."""
-        cls._person = person.Person("Testi", 34, '2342343434')
-        cls._emp = person.Employee("Employee Tester", 45, "55555555555555", "Programmer", "3000", "Tampere")
+        cls._person = Person("Testi", 34, '2342343434')
+        cls._emp = Employee("Employee Tester", 45, "55555555555555", "Programmer", "3000", "Tampere")
 
     def test_000_object_exists(self):
         """ Test creating a new object """
