@@ -59,6 +59,7 @@ class Person(object):
 
         :return: age, integer
         """
+        print(self.age)
         return self.age
 
     def set_phone(self, phone):
