@@ -17,7 +17,7 @@ class Person(object):
         self.age = age
         self.phone = phone
 
-    def print(self):
+    def printdata(self):
         """ Method prints person's data.
 
         :return: None
