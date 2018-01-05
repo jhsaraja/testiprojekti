@@ -26,6 +26,6 @@ deploy:
     python: 2.7
 
 after_success:
-  - coverage run --source epages_provisioning setup.py test
+  - coverage run --source testiprojekti setup.py test
   - coverage report
   - coveralls
