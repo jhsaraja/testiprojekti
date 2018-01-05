@@ -16,10 +16,6 @@ testiprojekti
 .. image:: https://pyup.io/repos/github/jhsaraja/testiprojekti/shield.svg
      :target: https://pyup.io/repos/github/jhsaraja/testiprojekti/
      :alt: Updates
- 
-.. image:: https://coveralls.io/repos/github/jhsaraja/testiprojekti/badge.svg?branch=master
-   :target: https://coveralls.io/jhsaraja/tswfi/testiprojekti?branch=master
-   :alt: Coveralls status
 
 
 Only testing
